@@ -6,7 +6,7 @@ Não valida se o telefone existe nem a quem pertence.<br>
 Testa se a quantidade e formato de dígitos parece válida e a qual estado pertence o DDD caso seja.</p>
 
 ## Instalação
-Clone o repositório e rode o comando e compile o docker
+Clone o repositório e rode o comando para compilar o docker
 ```powershell
 docker build --tag [dockertag] .
 ```
@@ -27,15 +27,3 @@ Acesse o servidor pelo navegador para testar a aplicação (deve ser similar ao 
  * Running on http://127.0.0.1:5000
  Press CTRL+C to quit
  ```
-
-## Integrantes
-<table>
-    <tr>
-        <td>Caio Naoto Murakami</td>
-        <td>2203207</td>
-    </tr>
-    <tr>
-        <td>Ellen dos Santos Xavier</td>
-        <td>2203485</td>
-    </tr>
-</table>
