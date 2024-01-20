@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Validador de telefone</title>
+  </head>
+  <body>
+    <h1>Verificador de telefone</h1>
+      <font color="red">
+        {% for i in lista_erros %}
+          <li>{{i}}</li>
+        {% endfor %}
+      </font>
+    <form method="GET" action="/telefone">
+      <div><p>Digite <label for="ddd">DDD</label> e <label for="telefone">Telefone</label></p>
+        <input type="number" name="ddd" id="ddd" style="width: 50px;" value="{{ddd}}">
+        <input type="number" name="telefone" id="telefone" value="{{telefone}}">
+      </div>
+      <p>
+        <input type="submit" value="Validar">
+      </p>
+    </form>
+  </body>
+</html>
